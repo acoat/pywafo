@@ -1,9 +1,10 @@
+
 |wafo_logo|
 ==========================================
 Wave Analysis for Fatigue and Oceanography
 ==========================================
 
-|pkg_img| |tests_img| |docs_img| |health_img| |coverage_img| |versions_img| |depsy_img|
+|pkg_img| |tests_img| |docs_img| |health_img| |coverage_img| |versions_img| |downloads_img|
 
 
 Description
@@ -35,6 +36,8 @@ Statistics
 
 Classes
 -------
+A short description of the main classes found in WAFO:
+
 
 * TimeSeries:
     Data analysis of time series. Example: extraction of turning points,
@@ -60,6 +63,7 @@ Classes
 
 Subpackages
 -----------
+A short descriptions the subpackages of WAFO:
 
 * TRANSFORM
     Modelling with linear or transformed Gaussian waves.
@@ -98,7 +102,7 @@ And install the wheel package with::
 Getting started
 ===============
 
-A quick introduction to some of the many features of wafo can be found in the Tutorial IPython notebooks in the 
+A quick introduction to some of the many features of wafo can be found in the Tutorial IPython notebooks in the
 `tutorial scripts folder`_:
 
 * Chapter 1 - `Some applications of WAFO`_
@@ -111,17 +115,17 @@ A quick introduction to some of the many features of wafo can be found in the Tu
 
 * Chapter 5 - `Extreme value analysis`_
 
--- _tutorial scripts folder: http://nbviewer.jupyter.org/github/wafo-project/pywafo/tree/master/wafo/doc/tutorial_scripts/
+-- _tutorial scripts folder: http://nbviewer.jupyter.org/github/wafo-project/pywafo/tree/master/src/wafo/doc/tutorial_scripts/
 
-.. _Some applications of WAFO: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/wafo/doc/tutorial_scripts/WAFO%20Chapter%201.ipynb
+.. _Some applications of WAFO: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/src/wafo/doc/tutorial_scripts/WAFO%20Chapter%201.ipynb
 
-.. _Modelling random loads and stochastic waves: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/wafo/doc/tutorial_scripts/WAFO%20Chapter%202.ipynb
+.. _Modelling random loads and stochastic waves: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/src/wafo/doc/tutorial_scripts/WAFO%20Chapter%202.ipynb
 
-.. _Demonstrates distributions of wave characteristics: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/wafo/doc/tutorial_scripts/WAFO%20Chapter%203.ipynb
+.. _Demonstrates distributions of wave characteristics: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/src/wafo/doc/tutorial_scripts/WAFO%20Chapter%203.ipynb
 
-.. _Fatigue load analysis and rain-flow cycles: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/wafo/doc/tutorial_scripts/WAFO%20Chapter%204.ipynb
+.. _Fatigue load analysis and rain-flow cycles: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/src/wafo/doc/tutorial_scripts/WAFO%20Chapter%204.ipynb
 
-.. _Extreme value analysis: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/wafo/doc/tutorial_scripts/WAFO%20Chapter%205.ipynb
+.. _Extreme value analysis: http://nbviewer.jupyter.org/github/wafo-project/pywafo/blob/master/src/wafo/doc/tutorial_scripts/WAFO%20Chapter%205.ipynb
 
 
 Unit tests
@@ -134,13 +138,7 @@ python session::
    wf.test(coverage=True, doctests=True)
 
 
-Note
-====
-
-This project has been set up using PyScaffold 2.4.2. For details and usage
-information on PyScaffold see http://pyscaffold.readthedocs.org/.
-
-.. |wafo_logo| image:: https://github.com/wafo-project/pywafo/blob/master/wafo/data/wafoLogoNewWithoutBorder.png
+.. |wafo_logo| image:: https://github.com/wafo-project/pywafo/blob/master/src/wafo/data/wafoLogoNewWithoutBorder.png
     :target: https://github.com/wafo-project/pywafo
 
 
@@ -164,5 +162,6 @@ information on PyScaffold see http://pyscaffold.readthedocs.org/.
    :target: https://github.com/wafo-project/pywafo
 
 
-.. |depsy_img| image:: http://depsy.org/api/package/pypi/wafo/badge.svg
-   :target: http://depsy.org/package/python/wafo
+.. |downloads_img| image:: https://img.shields.io/pypi/dm/wafo.svg
+   :alt: PyPI - Downloads
+
