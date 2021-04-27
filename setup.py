@@ -190,14 +190,6 @@ def setup_package():
 
     sphinx_requires = ['sphinx>=1.3.1']
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
-<<<<<<< HEAD
-    sphinx = ['sphinx'] if needs_sphinx else []
-    setup(setup_requires=['six', 'pyscaffold>=2.5.9,<=3.1'] + sphinx,
-          tests_require=['pytest_cov', 'pytest'],
-          use_pyscaffold=True,
-          packages=setuptools.find_packages(),
-          **config.todict())
-=======
     sphinx = ['numpydoc',
               'imgmath',
               'sphinx_rtd_theme>=0.1.7'] + sphinx_requires if needs_sphinx else []
@@ -213,7 +205,6 @@ def setup_package():
                   'sdist': sdist},
         **config.todict()
     )
->>>>>>> c7d9c976dbc3be5c2bc4ce9d4ddd6a30e12799d2
 
 
 if __name__ == "__main__":
